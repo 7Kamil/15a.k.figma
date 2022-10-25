@@ -1,19 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Courier+Prime&family=Lato:ital,wght@0,100;0,300;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@200;400;600&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Courier+Prime&family=Lato:ital,wght@0,100;0,300;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@200;400;600&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-/* Указываем box sizing */
+/* Указываю box sizing */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-/* Удаляем внутренние отступы */
+/* Удаляю внутренние отступы */
 ul[class],
 ol[class] {
   padding: 0;
 }
 
-/* Удаляем внешние отступы */
+/* Удаляю внешние отступы */
 body,
 h1,
 h2,
@@ -31,7 +31,7 @@ dd {
   margin: 0;
 }
 
-/* Выставляем главные настройки по-умолчанию для body */
+/* Выставляю главные настройки по-умолчанию для body */
 body {
   min-height: 100vh;
   scroll-behavior: smooth;
@@ -39,24 +39,24 @@ body {
   line-height: 1.5;
 }
 
-/* Убираем стандартную стилизацию для ul и il, у кого есть атрибут class*/
+/* Убираю стандартную стилизацию для ul и il, у кого есть атрибут class*/
 ul[class],
 ol[class] {
   list-style: none;
 }
 
-/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+/* Элементы a, у которых нет класса, сбрасываем до стиля дефолт */
 a:not([class]) {
   text-decoration-skip-ink: auto;
 }
 
-/* Облегчаем работу с изображениями */
+/* Облегчаю работу с изображениями */
 img {
   max-width: 100%;
   display: block;
 }
 
-/* Наследуем шрифты для инпутов и кнопок */
+/* Наследую шрифты для инпутов и баттонов */
 input,
 button,
 textarea,
@@ -93,7 +93,7 @@ body {
     font-weight: 400;
     line-height: 36px;
   }
-  .1-block__picture {
+  .1-block__picture1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,7 +123,7 @@ body {
       font-size: 14px;
       line-height: 21px;
     }
-    .1-block__photo {
+    .1-block__picture1 {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -156,7 +156,7 @@ body {
       font-size: 12px;
       line-height: 18px;
     }
-    .1-block__photograf {
+    .1-block__cameraman1 {
       width: 146px;
       height: 146px;
     }
@@ -177,10 +177,10 @@ body {
     align-items: center;
     margin-top: 50px;
   }
-  .1-block__photo2 {
+  .1-block__picture2 {
     position: relative;
   }
-  .1-block__photograf2 {
+  .1-block__cameraman2 {
     width: 232px;
     height: 203px;
   }
@@ -219,7 +219,7 @@ body {
   }
   
   @media (max-width: 1400px) {
-    .1-block__photograf2 {
+    .1-block__cameraman2 {
       width: 134px;
       height: 118px;
     }
@@ -254,7 +254,7 @@ body {
       align-items: center;
       margin-top: 50px;
     }
-    .1-block__photo2 {
+    .1-block__picture2 {
       display: none;
     }
     .1-block__cameraman2 {
